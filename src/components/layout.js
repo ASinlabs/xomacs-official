@@ -11,7 +11,6 @@ import Services from "./services/services"
 import CaseStudies from "./caseStudies/CaseStudies"
 import GatsbyImageExample from "./gatsbyImageExample/GatsbyImageExample"
 
-// const Layout = ({ children }) => {
 const Layout = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
